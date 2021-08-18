@@ -1,0 +1,20 @@
+name: threeml
+channels:
+  - conda-forge
+  - threeml
+  - xspecmodels
+dependencies:
+  - astropy<4.3
+  - numpy
+  - ultranest
+  - pygmo
+  - fermitools
+  - psutil
+  - toolz
+  - matplotlib
+  - dill
+  - pandas
+  - astromodels
+  - threeml
+  - xspec-modelsonly
+  - nbgitpuller
