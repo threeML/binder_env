@@ -1,2 +1,2 @@
 jupyter serverextension enable --py nbgitpuller --sys-prefix
-jt -t onedork -f jetbrains -T -N -kl -cellw 90%  -cursc g
+jt -t onedork -f firacode -T -N -kl -cellw 90%  -cursc g
