@@ -3,12 +3,14 @@ channels:
   - conda-forge
   - threeml
   - xspecmodels
+  - fermi
 dependencies:
   - astropy<4.3
   - numpy
   - ultranest
   - pygmo
   - fermitools
+  - fermipy
   - psutil
   - toolz
   - matplotlib
