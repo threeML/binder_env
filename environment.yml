@@ -22,5 +22,5 @@ dependencies:
   - nbgitpuller
   - pip
   - pip:
-      twopc
-      
+      - twopc
+      - jupyterthemes
