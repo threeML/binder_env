@@ -14,7 +14,7 @@ RUN adduser --disabled-password \
 WORKDIR ${HOME}
 
 # As user
-USER ROOT
+USER root
 
 
 RUN source activate env && jt -t onedork -f firacode -T -N -kl -cellw 90%  -cursc g
