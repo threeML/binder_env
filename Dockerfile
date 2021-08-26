@@ -1,4 +1,4 @@
-FROM threeml/base
+FROM threeml/base:1.0.0
 MAINTAINER Michael Burgess <jburgess@mpe.mpg.de>
 
 # As user
