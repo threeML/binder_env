@@ -4,5 +4,5 @@ jupyter serverextension enable --py nbgitpuller --sys-prefix
 jt -t grade3 -f firacode -T -N -kl -cellw 90%  -cursc g
 
 # go ahead and build the XSPEC models
-source activate base
+source activate ${CONDA_DEFAULT_ENV}
 python -c "from astromodels.xspec import *"
