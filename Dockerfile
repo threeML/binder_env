@@ -5,7 +5,7 @@ MAINTAINER Michael Burgess <jburgess@mpe.mpg.de>
 USER ${NB_UID}
 
 
-RUN jt -t onedork -f firacode -T -N -kl -cellw 90%  -cursc g
+RUN source activate env && jt -t onedork -f firacode -T -N -kl -cellw 90%  -cursc g
 
 
 # Clear entrypoint
