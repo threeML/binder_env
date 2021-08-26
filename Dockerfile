@@ -15,6 +15,7 @@ WORKDIR ${HOME}
 
 # As user
 USER root
+RUN chown -R ${NB_USER} ${HOME}
 
 
 RUN source activate env && jt -t onedork -f firacode -T -N -kl -cellw 90%  -cursc g
@@ -23,6 +24,5 @@ RUN source activate env && jt -t onedork -f firacode -T -N -kl -cellw 90%  -curs
 # Clear entrypoint
 ENTRYPOINT []
 
-# Set permissions
-USER ${NB_UID}
 
+USER ${USER}
