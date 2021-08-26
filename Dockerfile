@@ -26,3 +26,5 @@ ENTRYPOINT []
 
 
 USER ${USER}
+
+RUN jupyter serverextension enable --py nbgitpuller --sys-prefix
