@@ -18,4 +18,4 @@ RUN chown -R ${NB_UID}:${NB_GID} .
 USER ${NB_UID}
 
 # run from the home directory
-WORKDIR "${HOME}"
+WORKDIR ${HOME}
