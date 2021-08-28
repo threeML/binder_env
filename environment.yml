@@ -23,7 +23,8 @@ dependencies:
   - pip
   - pip:
       - twopc
-      - jupyterthemes
+      - git+git://github.com/dunovank/jupyter-themes@master#egg=jupyterthemes
       - gbmgeometry
       - gbm_drm_gen
       - root_numpy
+      - jupyter_contrib_nbextensions

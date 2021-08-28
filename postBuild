@@ -1,7 +1,11 @@
 #!/bin/bash
 
 jupyter serverextension enable --py nbgitpuller --sys-prefix
-jt -t grade3 -f firacode -T -N -kl -cellw 90%  -cursc g
+jupyter contrib nbextension install --user
+jupyter nbextensions_configurator enable --user
+jupyter nbextension enable collapsible_headings/main
+
+jt -t grade3 -cellw 90% -T -kl -N -f jetbrains -fs 10 -cursc p -tf jetbrains -nf jetbrain
 
 # go ahead and build the XSPEC models
 source activate ${CONDA_DEFAULT_ENV}
