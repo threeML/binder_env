@@ -5,7 +5,7 @@ jupyter contrib nbextension install --user
 jupyter nbextensions_configurator enable --user
 jupyter nbextension enable collapsible_headings/main
 
-jt -t grade3 -cellw 90% -T -kl -N -f jetbrains -fs 10 -cursc p -tf jetbrains -nf jetbrain
+jt -t grade3 -cellw 90% -T -kl -N -f jetbrains -fs 10 -cursc p -tf jetbrains -nf jetbrains
 
 # go ahead and build the XSPEC models
 source activate ${CONDA_DEFAULT_ENV}
