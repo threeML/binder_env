@@ -1,0 +1,19 @@
+logging:
+  developer: off
+  usr: off
+  startup_warnings: off
+
+
+
+plugins:
+  ogip:
+    fit_plot:
+      model_cmap: Spectral
+      data_color: grey
+      background_color: k
+      background_mpl_kwargs:
+        lw: .8
+        ls: "-"
+
+point_source:
+  max_number_samples: 500

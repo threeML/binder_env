@@ -7,6 +7,13 @@ jupyter nbextension enable collapsible_headings/main
 
 jt -t grade3 -cellw 90% -T -kl -N -f jetbrains -fs 10 -cursc p -tf jetbrains -nf jetbrains
 
+export OMP_NUM_THREADS=1
+export MKL_NUM_THREADS=1
+export NUMEXPR_NUM_THREADS=1
+
 # go ahead and build the XSPEC models
 source activate ${CONDA_DEFAULT_ENV}
 python -c "from astromodels.xspec import *"
+
+mkdir -p .config/threeML
+cp demo.yml .config/threeML
